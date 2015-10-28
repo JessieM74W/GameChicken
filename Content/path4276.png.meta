@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "path4276",
+		uint64 ResourceId = 5614ecb8d0352eab,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 340,
+		uint FrameSizeY = 618,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 170,
+		float OriginY = 309,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},
