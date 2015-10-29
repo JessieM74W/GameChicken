@@ -2,15 +2,15 @@ ImageContent =
 {
 	SpriteSourceBuilder = 
 	{
-		string Name = "rect4191-6",
-		uint64 ResourceId = 561516a9f6bf9c0e,
+		string Name = "image3344",
+		uint64 ResourceId = 562590a273438082,
 		uint64 AtlasId = 5274cf95e4a661fd,
-		uint FrameSizeX = 340,
-		uint FrameSizeY = 329,
+		uint FrameSizeX = 284,
+		uint FrameSizeY = 177,
 		uint FrameCount = 1,
 		float FrameDelay = 0.0833333358,
-		float OriginX = 170,
-		float OriginY = 164,
+		float OriginX = 142,
+		float OriginY = 88,
 		float PixelsPerUnit = 64,
 		bool Smoothing = false,
 		bool Looping = true,
