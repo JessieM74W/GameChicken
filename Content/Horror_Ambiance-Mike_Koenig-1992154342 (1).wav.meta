@@ -1,0 +1,11 @@
+AudioContent = 
+{
+	SoundBuilder = 
+	{
+		string Name = "Horror_Ambiance-Mike_Koenig-1992154342 (1)",
+		uint64 ResourceId = 562423534c9ddab4,
+		bool Compressed = true,
+		uint Quality = 100,
+		SoundLoadType LoadType = Decompress,
+	},
+},
