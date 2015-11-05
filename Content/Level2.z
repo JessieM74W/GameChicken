@@ -1,0 +1,17 @@
+class Level2 : ZilchComponent
+{
+     var Level1: Level = Level.Find("Level");
+    var Level2: Level = Level.Find("Level2");
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Owner, Events.CollisionStarted,this.OnCollisionStarted);
+    }
+
+    function OnCollisionStarted(event : CollisionEvent)
+    {
+        if(event.OtherObject.Name == "stair")
+        {
+            this.Space.LoadLevel(this.Level2);
+        }
+    }
+}
