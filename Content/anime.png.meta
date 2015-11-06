@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "anime",
+		uint64 ResourceId = 562ae553d92f4142,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 238,
+		uint FrameSizeY = 389,
+		uint FrameCount = 4,
+		float FrameDelay = 0.0666666701,
+		float OriginX = 119,
+		float OriginY = 194,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},
