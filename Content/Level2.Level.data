@@ -89,7 +89,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [8.08188725, -0.298692524, 50],
+			Vec3 Translation = [-3.81085205, 7.77573395, 50],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -101,7 +101,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 100,
+			float Size = 60.6531296,
 		},
 		EditorCameraController = 
 		{
@@ -109,7 +109,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [8.08188725, -0.298692524, 3.53270707e-007],
+			Vec3 LookTarget = [-3.81085205, 7.77573395, -1.66577394e-007],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -125,7 +125,7 @@ Level =
 	{
 		LinkId = 
 		{
-			uint Id = 4,
+			uint Id = 2,
 		},
 		Named = 
 		{
@@ -145,7 +145,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 200,
-			float Size = 30,
+			float Size = 40,
 		},
 		SoundListener = 
 		{
@@ -156,7 +156,7 @@ Level =
 	{
 		LinkId = 
 		{
-			uint Id = 5,
+			uint Id = 4,
 		},
 		Named = 
 		{
@@ -164,8 +164,8 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-27.2357121, -0.223217726, 0],
-			Vec3 Scale = [2.07748008, 29.7768898, 1],
+			Vec3 Translation = [-36.0506439, -0.223217726, 0],
+			Vec3 Scale = [2.78434181, 40.2701073, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
 		Sprite = 
@@ -214,7 +214,7 @@ Level =
 			{
 				LinkId = 
 				{
-					uint Id = 6,
+					uint Id = 5,
 				},
 				Named = 
 				{
@@ -271,7 +271,7 @@ Level =
 			{
 				LinkId = 
 				{
-					uint Id = 7,
+					uint Id = 6,
 				},
 				Named = 
 				{
@@ -328,7 +328,7 @@ Level =
 			{
 				LinkId = 
 				{
-					uint Id = 8,
+					uint Id = 7,
 				},
 				Named = 
 				{
@@ -387,7 +387,7 @@ Level =
 	{
 		LinkId = 
 		{
-			uint Id = 9,
+			uint Id = 8,
 		},
 		Named = 
 		{
@@ -439,7 +439,10 @@ Level =
 			Vec3 Offset = [0, 0, 0],
 			Vec3 Size = [0.5, 0.5, 0.5],
 		},
-		Bulletdestroy = 
+		BossKill = 
+		{
+		},
+		Bulletdestroy2 = 
 		{
 		},
 	},
@@ -447,7 +450,7 @@ Level =
 	{
 		LinkId = 
 		{
-			uint Id = 10,
+			uint Id = 9,
 		},
 		Named = 
 		{
@@ -455,8 +458,8 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-0.0905151367, 12.6485977, 3.53270707e-007],
-			Vec3 Scale = [1, 1, 1],
+			Vec3 Translation = [-0.215037242, 11.3189507, -0],
+			Vec3 Scale = [1.3781333, 0.893395424, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
 		Sprite = 
@@ -469,7 +472,7 @@ Level =
 			BlendMode BlendMode = Alpha,
 			SpriteGeometryMode GeometryMode = ZPlane,
 			string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
-			string SpriteSource = "5275aa4d802dd6dc:Square",
+			string SpriteSource = "5656feb5b01dcdff:kfc",
 			bool RenderMask = false,
 			bool FlipX = false,
 			bool FlipY = false,
@@ -485,7 +488,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [0.5, 0.5, 0.5],
+			Vec3 Size = [1.5, 2, 0.5],
 		},
 		RigidBody = 
 		{
@@ -499,12 +502,19 @@ Level =
 			Vec3 Velocity = [0, 0, 0],
 			Vec3 AngularVelocity = [0, 0, 0],
 		},
+		BossKill = 
+		{
+		},
+		Bosshealth = 
+		{
+			float Health = 1000,
+		},
 	},
 	Cog = 
 	{
 		LinkId = 
 		{
-			uint Id = 11,
+			uint Id = 10,
 		},
 		Named = 
 		{
@@ -566,6 +576,85 @@ Level =
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
 			Vec3 Size = [3, 5, 0.5],
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 11,
+		},
+		Named = 
+		{
+			string Name = "BasicParticleEffect",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [40.8595352, -2.07085228, -5.68873475e-005],
+			Vec3 Scale = [4.33540344, 4.30028391, 28.0039673],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		SpriteParticleSystem = 
+		{
+			bool Visible = true,
+			bool VisibilityCulling = true,
+			bool VisibilityEvents = true,
+			bool CastShadows = false,
+			SystemChildMode ChildMode = Independent,
+			SystemSpace SystemSpace = WorldSpace,
+			uint DrawOrder = 0,
+			float WarmUpTime = 0,
+			ParticleGeometry GeometryMode = Beam,
+			ParticleRenderMode RenderMode = Additive,
+			ParticleSortMode SortMode = Youngest,
+			ParticleAnimation ParticleAnimation = Single,
+			string Texture = "5310e87a46f2ca03:FireParticle03",
+			Vec4 Tint = [1, 1, 1, 0.999899983],
+			float VelocityScale = 1,
+			float LengthScale = 1,
+			float MaxParticleSize = 1000,
+			Vec3 SystemSize = [50, 41, 12],
+		},
+		SphericalParticleEmitter = 
+		{
+			bool Active = true,
+			uint EmitCount = 0,
+			float EmitRate = 50000,
+			float EmitVariance = 0,
+			float Size = 0.100000001,
+			float SizeVariance = 0,
+			float Lifetime = 0.100000001,
+			float LifetimeVariance = 0.200000003,
+			float Spin = 2,
+			float SpinVariance = 100,
+			bool RandomSpin = true,
+			float Fill = 1,
+			float EmitterVelocityPercent = 0,
+			Vec3 StartVelocity = [0, 0, 0],
+			Vec3 RandomVelocity = [2, 2, 2],
+			Vec3 TangentVelocity = [0, 0, 0],
+			Vec3 EmitterSize = [0, 0, 0],
+			bool FastMovingEmitter = false,
+		},
+		LinearParticleAnimator = 
+		{
+			Vec3 Force = [0, 0, 0],
+			Vec3 RandomForce = [0, 0, 0],
+			float Torque = 100,
+			float Growth = 0,
+			float Dampening = 0,
+			Vec3 Twist = [0, 0, 0],
+		},
+		ParticleColorAnimator = 
+		{
+			Vec4 Color0 = [0.970000029, 0.00484997034, 0.00484997034, 0],
+			Vec4 Color1 = [0, 1, 0.160000086, 1],
+			Vec4 Color2 = [1, 0, 0.000599861145, 1],
+			Vec4 Color3 = [1, 1, 1, 1],
+			Vec4 Color4 = [1, 1, 1, 0],
+		},
+		Mousekfc = 
+		{
 		},
 	},
 },
