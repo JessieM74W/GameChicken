@@ -92,7 +92,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-25.1768703, 28.7191372, 49.999939],
+			Vec3 Translation = [31.2200851, 26.6513405, 49.999939],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -104,7 +104,7 @@ Level =
 			float FieldOfView = 89,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 16.5299034,
+			float Size = 3.68832374,
 		},
 		EditorCameraController = 
 		{
@@ -112,7 +112,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [-25.1768703, 28.7191372, -6.23265005e-005],
+			Vec3 LookTarget = [31.2200851, 26.6513405, -5.98612969e-005],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -260,8 +260,8 @@ Level =
 			ParticleRenderMode RenderMode = Additive,
 			ParticleSortMode SortMode = Youngest,
 			ParticleAnimation ParticleAnimation = Single,
-			string Texture = "5310e87a46f2ca03:FireParticle03",
-			Vec4 Tint = [1, 1, 1, 0.999899983],
+			string Texture = "5656feb5b01dcdff:kfc",
+			Vec4 Tint = [0.137479708, 0.125999987, 0.699999988, 0.999899983],
 			float VelocityScale = 1,
 			float LengthScale = 1,
 			float MaxParticleSize = 1000,

@@ -1,7 +1,7 @@
 class Bosshealth : ZilchComponent
 {
        [Property]
-    var Health : Real = 1000;
+    var Health : Real = 10000;
     function Initialize(init : CogInitializer)
     {
         Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);

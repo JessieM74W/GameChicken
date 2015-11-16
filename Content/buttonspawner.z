@@ -1,6 +1,6 @@
 class Buttonspawner : ZilchComponent
 {
-    var Direction : Real3 =Real3(50,0,0);
+    var Direction : Real3 =Real3(0,50,0);
     function Initialize(init : CogInitializer)
     {
         Zero.Connect(Zero.Keyboard, Events.KeyDown, this.OnKeyDown);
@@ -13,19 +13,19 @@ class Buttonspawner : ZilchComponent
     
     function OnKeyDown(event : KeyboardEvent)
     {
-        if(event.Key == Keys.A)
+        if(event.Key == Keys.H)
         {
             this.Direction = Real3(-50,0,0);
         }
-        if(event.Key == Keys.D)
+        if(event.Key == Keys.K)
         {
             this.Direction = Real3(50,0,0);
         }
-        if(event.Key == Keys.W)
+        if(event.Key == Keys.U)
         {
             this.Direction = Real3(0,50,0);
         }
-        if(event.Key == Keys.S)
+        if(event.Key == Keys.J)
         {
             this.Direction = Real3(0,-50,0);
         }
