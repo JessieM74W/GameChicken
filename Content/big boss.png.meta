@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "big boss",
+		uint64 ResourceId = 565c7307980e941f,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 199,
+		uint FrameSizeY = 245,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 99,
+		float OriginY = 122,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},
