@@ -92,7 +92,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [31.2200851, 26.6513405, 49.999939],
+			Vec3 Translation = [-35.810257, 25.4657707, 49.999939],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -104,7 +104,7 @@ Level =
 			float FieldOfView = 89,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 3.68832374,
+			float Size = 33.287178,
 		},
 		EditorCameraController = 
 		{
@@ -112,7 +112,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [31.2200851, 26.6513405, -5.98612969e-005],
+			Vec3 LookTarget = [-35.810257, 25.4657707, -6.27912887e-005],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -12677,6 +12677,140 @@ Level =
 					uint StartFrame = 0,
 				},
 			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 251,
+		},
+		Named = 
+		{
+			string Name = "zombie",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-47.0068054, 25.0704956, -6.10351563e-005],
+			Vec3 Scale = [1.82253575, 1.13231206, 1],
+			Quat Rotation = [0, 0, -0.700918496, 0.713241398],
+		},
+		Sprite = 
+		{
+			bool Visible = true,
+			bool VisibilityCulling = true,
+			bool VisibilityEvents = true,
+			bool CastShadows = false,
+			Vec4 Color = [1, 1, 1, 1],
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+			string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			string SpriteSource = "5603c31b74c919f3:zombie sprite",
+			bool RenderMask = false,
+			bool FlipX = false,
+			bool FlipY = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+		},
+		SphereCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			float Radius = 0.5,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Zombie2 = 
+		{
+			float PaceSpeed = 30,
+		},
+		Kill = 
+		{
+		},
+		Kill2 = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 252,
+		},
+		Named = 
+		{
+			string Name = "zombie",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-47.0068054, 22.1977654, -6.10351563e-005],
+			Vec3 Scale = [1.82253575, 1.13231206, 1],
+			Quat Rotation = [0, 0, -0.700918496, 0.713241398],
+		},
+		Sprite = 
+		{
+			bool Visible = true,
+			bool VisibilityCulling = true,
+			bool VisibilityEvents = true,
+			bool CastShadows = false,
+			Vec4 Color = [1, 1, 1, 1],
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+			string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			string SpriteSource = "5603c31b74c919f3:zombie sprite",
+			bool RenderMask = false,
+			bool FlipX = false,
+			bool FlipY = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+		},
+		SphereCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			float Radius = 0.5,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Zombie2 = 
+		{
+			float PaceSpeed = 30,
+		},
+		Kill = 
+		{
+		},
+		Kill2 = 
+		{
 		},
 	},
 },
