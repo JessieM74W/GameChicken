@@ -89,7 +89,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-1.18133438, 11.2747736, 50],
+			Vec3 Translation = [-3.82109141, -7.3525629, 50],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -101,7 +101,7 @@ Level =
 			float FieldOfView = 45,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 33.2871361,
+			float Size = 100,
 		},
 		EditorCameraController = 
 		{
@@ -109,7 +109,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [-1.18133438, 11.2747736, -5.16387466e-008],
+			Vec3 LookTarget = [-3.82109141, -7.3525629, -1.67026244e-007],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -488,7 +488,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [1.5, 2, 0.5],
+			Vec3 Size = [1.54999995, 1.95000005, 0.5],
 		},
 		RigidBody = 
 		{
@@ -508,6 +508,9 @@ Level =
 		Bosshealth = 
 		{
 			float Health = 10000,
+		},
+		Kill = 
+		{
 		},
 	},
 	Cog = 
@@ -553,7 +556,7 @@ Level =
 		},
 		Health = 
 		{
-			float Health = 100,
+			float Health = 10,
 		},
 		RigidBody = 
 		{
@@ -567,7 +570,7 @@ Level =
 			Vec3 Velocity = [0, 0, 0],
 			Vec3 AngularVelocity = [0, 0, 0],
 		},
-		BoxCollider = 
+		MultiConvexMeshCollider = 
 		{
 			bool Ghost = false,
 			bool SendsMessages = true,
@@ -575,7 +578,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [3, 5, 0.5],
+			string MeshName = "562456e5bfff8468:chicken",
 		},
 	},
 	Cog = 
@@ -612,16 +615,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -636,6 +629,22 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill2 = 
+		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -672,16 +681,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -696,6 +695,22 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill2 = 
+		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -732,16 +747,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -756,6 +761,22 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill2 = 
+		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -792,16 +813,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -816,6 +827,19 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -852,16 +876,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -876,6 +890,19 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -912,16 +939,6 @@ Level =
 			float AnimationSpeed = 1,
 			uint StartFrame = 0,
 		},
-		BoxCollider = 
-		{
-			bool Ghost = false,
-			bool SendsMessages = true,
-			bool Seamless = true,
-			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
-			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
-			Vec3 Offset = [0, 0, 0],
-			Vec3 Size = [4, 4, 0.5],
-		},
 		RigidBody = 
 		{
 			bool Static = true,
@@ -936,6 +953,19 @@ Level =
 		},
 		Killkfc = 
 		{
+		},
+		Kill = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "56449041d7b0378f:bucket",
 		},
 	},
 	Cog = 
@@ -1091,6 +1121,140 @@ Level =
 			Vec4 Color2 = [1, 1, 1, 1],
 			Vec4 Color3 = [1, 1, 1, 1],
 			Vec4 Color4 = [1, 1, 1, 0],
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 19,
+		},
+		Named = 
+		{
+			string Name = "zombie",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [6.21671295, -16.9463081, -6.10351563e-005],
+			Vec3 Scale = [1.83152032, 1.13128185, 1],
+			Quat Rotation = [0, 0, 0.704447627, 0.709755898],
+		},
+		Sprite = 
+		{
+			bool Visible = true,
+			bool VisibilityCulling = true,
+			bool VisibilityEvents = true,
+			bool CastShadows = false,
+			Vec4 Color = [1, 1, 1, 1],
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+			string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			string SpriteSource = "5603c31b74c919f3:zombie sprite",
+			bool RenderMask = false,
+			bool FlipX = false,
+			bool FlipY = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Zombie4 = 
+		{
+			float PaceSpeed = 30,
+		},
+		Kill = 
+		{
+		},
+		Kill2 = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "564496b28c42eb95:Zombie",
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 20,
+		},
+		Named = 
+		{
+			string Name = "zombie",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-5.91088343, -16.5562172, -6.10351563e-005],
+			Vec3 Scale = [1.82253575, 1.13231206, 1],
+			Quat Rotation = [0, 0, -0.700918496, 0.713241398],
+		},
+		Sprite = 
+		{
+			bool Visible = true,
+			bool VisibilityCulling = true,
+			bool VisibilityEvents = true,
+			bool CastShadows = false,
+			Vec4 Color = [1, 1, 1, 1],
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+			string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			string SpriteSource = "5603c31b74c919f3:zombie sprite",
+			bool RenderMask = false,
+			bool FlipX = false,
+			bool FlipY = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Zombie2 = 
+		{
+			float PaceSpeed = 30,
+		},
+		Kill = 
+		{
+		},
+		Kill2 = 
+		{
+		},
+		MultiConvexMeshCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = true,
+			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			string MeshName = "564496b28c42eb95:Zombie",
 		},
 	},
 },
