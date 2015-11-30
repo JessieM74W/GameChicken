@@ -92,7 +92,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [21.0231514, 30.1211109, 49.999939],
+			Vec3 Translation = [-5.0829401, -9.31319332, 49.999939],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -104,7 +104,7 @@ Level =
 			float FieldOfView = 89,
 			float NearPlane = 0.5,
 			float FarPlane = 500,
-			float Size = 49.0650406,
+			float Size = 100,
 		},
 		EditorCameraController = 
 		{
@@ -112,7 +112,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [21.0231514, 30.1211109, -5.9652335e-005],
+			Vec3 LookTarget = [-5.0829401, -9.31319332, -6.0793478e-005],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -485,7 +485,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -552,7 +552,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -619,7 +619,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -686,7 +686,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -753,7 +753,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -820,7 +820,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 		Hierarchy = 
 		{
@@ -890,7 +890,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -957,7 +957,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1024,7 +1024,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1091,7 +1091,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1158,7 +1158,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1225,7 +1225,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1292,7 +1292,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1359,7 +1359,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1426,7 +1426,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1493,7 +1493,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1560,7 +1560,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1627,7 +1627,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1694,7 +1694,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1761,7 +1761,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1828,7 +1828,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1895,7 +1895,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -1962,7 +1962,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2029,7 +2029,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2096,7 +2096,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2163,7 +2163,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2230,7 +2230,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2297,7 +2297,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2364,7 +2364,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2431,7 +2431,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2498,7 +2498,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2565,7 +2565,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2632,7 +2632,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2699,7 +2699,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2766,7 +2766,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2833,7 +2833,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2900,7 +2900,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -2967,7 +2967,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3034,7 +3034,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3101,7 +3101,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3168,7 +3168,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3235,7 +3235,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3302,7 +3302,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3369,7 +3369,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3436,7 +3436,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3503,7 +3503,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3570,7 +3570,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3637,7 +3637,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3704,7 +3704,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3771,7 +3771,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3838,7 +3838,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3905,7 +3905,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -3972,7 +3972,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -4039,7 +4039,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -4106,7 +4106,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -4173,7 +4173,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 
@@ -4240,7 +4240,7 @@ Level =
 			string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
 			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
 			Vec3 Offset = [0, 0, 0],
-			string MeshName = "564496b28c42eb95:Zombie",
+			string MeshName = "564b5cf720b3e758:lol",
 		},
 	},
 	Cog = 

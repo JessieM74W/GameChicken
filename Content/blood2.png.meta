@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "blood2",
+		uint64 ResourceId = 564b28f28c54a0ee,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 488,
+		uint FrameSizeY = 183,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 244,
+		float OriginY = 91,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},
