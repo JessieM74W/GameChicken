@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "StickTime",
+		uint64 ResourceId = 56775e6c1ccb61bf,
+	},
+},

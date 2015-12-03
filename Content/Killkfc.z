@@ -1,5 +1,6 @@
 class Killkfc : ZilchComponent
 {
+    var Timer : Real =3.0;
     function Initialize(init : CogInitializer)
     {
         Zero.Connect(this.Owner, Events.CollisionStarted,this.OnCollisionStarted);
@@ -11,7 +12,9 @@ class Killkfc : ZilchComponent
         
           if(event.OtherObject.ArchetypeName == "ball")
           {
-          this.Owner.Destroy();
+          var temp = this.Owner.Transform.Translation;
+          temp.Z -= 5;
+          this.Owner.Transform.Translation = temp;
       }
     }
 }

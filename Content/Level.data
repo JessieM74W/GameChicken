@@ -217,7 +217,7 @@ Level =
 		},
 		Health = 
 		{
-			float Health = 10,
+			float Health = 100,
 		},
 		MultiConvexMeshCollider = 
 		{

@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "stick",
+		uint64 ResourceId = 567746b3060a44a3,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 270,
+		uint FrameSizeY = 186,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333358,
+		float OriginX = 135,
+		float OriginY = 93,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

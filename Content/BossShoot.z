@@ -1,0 +1,24 @@
+class BossShoot : ZilchComponent
+{
+    var Timer : Real = 0.0;
+    var Direction : Real3 =Real3(0,-50,0);
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {
+        this.Timer +=event.Dt;
+        if(this.Timer >0.5)
+        {
+            this.Timer=0;
+        Console.WriteLine(this.Direction);
+            var spawnPosition = this.Owner.Transform.Translation;
+            var archetypeToSpawn = Archetype.Find("stick");
+            var createdball = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
+            this.Direction=-this.Owner.Transform.Translation+this.Space.FindObjectByName("player").Transform.Translation;
+        createdball.RigidBody.Velocity = this.Direction;
+    }
+}
+}
