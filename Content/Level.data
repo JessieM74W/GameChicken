@@ -92,7 +92,7 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-14.4366827, -18.5677738, 49.999939],
+			Vec3 Translation = [-24.3342018, 31.3241062, 49.999939],
 			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [-0, -1.09278471e-008, 0, 1],
 		},
@@ -112,7 +112,7 @@ Level =
 			float LookDistance = 50,
 			float VerticalAngle = 0,
 			float HorizontalAngle = 0,
-			Vec3 LookTarget = [-14.4366827, -18.5677738, -6.12023505e-005],
+			Vec3 LookTarget = [-24.3342018, 31.3241062, -6.10351563e-005],
 			float MoveSensitivity = 1,
 		},
 		EditorRenderer = 
@@ -217,7 +217,7 @@ Level =
 		},
 		Health = 
 		{
-			float Health = 100,
+			float Health = 10,
 		},
 		MultiConvexMeshCollider = 
 		{

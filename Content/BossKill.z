@@ -10,7 +10,7 @@ class BossKill : ZilchComponent
 
     function OnCollisionStarted(event : CollisionEvent)
 {
-        if(event.OtherObject.Name == "bullet")
+        if(event.OtherObject.Name == "ball")
     {
         var temp = this.Owner.Bosshealth.Health;
         temp -=10;

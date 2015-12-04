@@ -10,7 +10,7 @@ class BossShoot : ZilchComponent
     function OnLogicUpdate(event : UpdateEvent)
     {
         this.Timer +=event.Dt;
-        if(this.Timer >0.5)
+        if(this.Timer >0.4)
         {
             this.Timer=0;
         Console.WriteLine(this.Direction);
@@ -18,7 +18,7 @@ class BossShoot : ZilchComponent
             var archetypeToSpawn = Archetype.Find("stick");
             var createdball = this.Space.CreateAtPosition(archetypeToSpawn, spawnPosition);
             this.Direction=-this.Owner.Transform.Translation+this.Space.FindObjectByName("player").Transform.Translation;
-        createdball.RigidBody.Velocity = this.Direction;
+        createdball.RigidBody.Velocity = Math.Normalize(this.Direction)*50;
     }
 }
 }
